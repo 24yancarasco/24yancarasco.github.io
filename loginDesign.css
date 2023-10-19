@@ -1,0 +1,77 @@
+#bigWelcome {
+    color: transparent;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 5rem;
+    background-image: linear-gradient(#66fcf1, #66fcf1);
+    background-repeat: no-repeat;
+    margin-left: 35%;
+    margin-right: 40.5%; 
+    -webkit-background-clip: text;
+    background-position: 0 -80px;
+    animation: backcolor 5s linear infinite alternate;
+}
+
+@keyframes backcolor {
+    100%{
+        background-position: 0 0;
+    }
+}
+
+#loginPageTitle {
+    padding-left: 44%;
+    padding-top: 5%;
+    color: #66fcf1;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+
+}
+
+#passwordInput {
+    width: 250px; 
+    height: 40px;
+    border-radius: 15px;
+    border-style: inset;
+    margin-left: 35%; 
+}
+
+#loginBody {
+    background-color: #171324;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed
+}
+
+.loginSquare {
+    background-color: #221C35;
+    padding-bottom: 120px;
+    padding-top: 80px;
+    margin-left: 300px;
+    margin-right: 350px;
+    border-radius: 20px;
+}
+
+#submitButton {
+    border-color: #66fcf1;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90px;
+    height: 25px;
+   background-color: transparent;
+   color: #66fcf1;
+   border-radius: 15px;
+   border-style: inset;
+   margin-left: 45%;
+}
+
+#submitButton:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#errorMessage {
+    margin-left: 42.5%;
+    display: none;
+}
+
+
+
